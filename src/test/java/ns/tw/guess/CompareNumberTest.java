@@ -16,7 +16,7 @@ public class CompareNumberTest {
     }
 
     @Test
-    public void should_show_tip_4A0B_when_compare_1234_and_1234() throws Exception {
+    public void should_show_tip_4A0B_when_compare_1234_and_1234() {
         String generated = "1234";
         String guessed = "1234";
 
@@ -26,7 +26,7 @@ public class CompareNumberTest {
     }
 
     @Test
-    public void should_show_tip_0A0B_when_compare_1234_and_5678() throws Exception {
+    public void should_show_tip_0A0B_when_compare_1234_and_5678() {
         String generated = "1234";
         String guessed = "5678";
 
@@ -36,7 +36,7 @@ public class CompareNumberTest {
     }
 
     @Test
-    public void should_show_tip_0A4B_when_compare_1234_and_4321() throws Exception {
+    public void should_show_tip_0A4B_when_compare_1234_and_4321() {
         String generated = "1234";
         String guessed = "4321";
 
@@ -46,7 +46,7 @@ public class CompareNumberTest {
     }
 
     @Test
-    public void should_show_tip_2A2B_when_compare_1234_and_1324() throws Exception {
+    public void should_show_tip_2A2B_when_compare_1234_and_1324() {
         String generated = "1234";
         String guessed = "1324";
 

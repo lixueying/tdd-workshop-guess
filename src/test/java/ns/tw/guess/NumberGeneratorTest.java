@@ -22,7 +22,7 @@ public class NumberGeneratorTest {
     }
 
     @Test
-    public void should_generate_a_number() throws Exception {
+    public void should_generate_a_number_when_input_guessed() {
 
         String generated = generator.generate();
 
@@ -34,7 +34,7 @@ public class NumberGeneratorTest {
     }
 
     @Test
-    public void should_generate_a_string_with_length_4() throws Exception {
+    public void should_generate_a_string_with_length_4() {
 
         String generated = generator.generate();
 
@@ -42,7 +42,7 @@ public class NumberGeneratorTest {
     }
 
     @Test
-    public void should_generate_a_number_with_different_digits() throws Exception {
+    public void should_generate_a_number_with_different_digits() {
 
         String generated = generator.generate();
 
@@ -53,7 +53,7 @@ public class NumberGeneratorTest {
     }
 
     @Test
-    public void should_generated_a_number_randomly() throws Exception {
+    public void should_generated_a_number_randomly() {
 
         String first = generator.generate();
         String second = generator.generate();
